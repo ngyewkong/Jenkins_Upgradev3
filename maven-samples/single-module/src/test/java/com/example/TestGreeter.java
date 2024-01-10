@@ -26,7 +26,8 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
-  
+
+  // test jenkins git scm polling
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
